@@ -37,7 +37,7 @@ botao.addEventListener('click', () => {
         aprova=false
         console.log(`èntão o ${number.value} é maior que ${maioro.value}`)
         console.log('não aprovado      '+aprova)
-        alert('o numero não está nos parões impostos por vc')
+        alert('o numero não está dentro dos padrões impostos por você')
         
     } else {
     aprova=true
@@ -45,7 +45,7 @@ botao.addEventListener('click', () => {
 if(aprova){
     console.log(number.value)
     criaElemento(number.value)
-    console.log(`numero awedaw ${numeroSecreto}`)
+    console.log(`numero secreto ${numeroSecreto}`)
     
 }else{console.log('desaprovado')}
 
