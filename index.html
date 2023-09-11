@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body> 
+
+    <p>coloque o maior valor</p>
+    <input type="number" id="maioro">
+    <p>coloque o menor valor abaixo:</p>
+    <input type="number" id="menoro"><br><br>
+    <h6>comece o jogo,gerando um número:</h6>
+    <input type="button" id="geraaleatorio">
+    <br><br>
+    <div id="chutaste">
+    <h3>chute um numero</h3>
+    <input type="number" id="number">
+    <input type="button" id="botal">
+</div>
+    <h1>onúemro secreto é <span id="menor-valor">0</span></h1>
+    <h1>o maior numero éee<span id="maior-valor">0</span></h1>
+<div id="chute" class="mensagem">
+    <div id="boxe">voce disse ...</div>
+    <div id="botoes">
+    <input type="button" id="clica">
+    <input type="button" id="clica_formal">
+</div>
+    <span class="box"></span>
+    <div id="aparece_aqui">numero secreto é maior-valor</div>
+</div>
+
+</body>
+<script src="javacript/sortear.js"></script>
+<script src="javacript/reconhecimento.js"></script>
+</html>
