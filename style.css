@@ -97,3 +97,6 @@ flex-wrap: wrap
     #botoes{display: flex;
     align-items: end;
 gap: 5px;}
+#inicio{margin-bottom: 10px;
+font-size: large;
+color: white;}
