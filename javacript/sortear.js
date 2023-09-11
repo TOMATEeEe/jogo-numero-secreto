@@ -29,8 +29,7 @@ let numeroSecreto
 let aprova = false
 const apertado = document.querySelector('#apertado')
 
-menor_valor.innerHTML = menoro.value
-maior_valor.innerHTTML = maioro.value
+
 
 botao.addEventListener('click', () => {
     console.log(`number =${number.value}  menoro=${menoro.value}  maioro=${ maioro.value}`)
